@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <meta name="copyright" content="MACode ID, https://www.macodeid.com/">
+  
+  <title>Portfolio DAOUDI</title>
+
+  <link rel="shortcut icon" href="images/linux2.jpeg" type="image/x-icon">
+  
+  <link rel="stylesheet" type="text/css" href="css/themify-icons.css">
+  
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+  <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+  
+  <link rel="stylesheet" type="text/css" href="vendor/owl-carousel/owl.carousel.css">
+  
+  <link rel="stylesheet" type="text/css" href="vendor/perfect-scrollbar/css/perfect-scrollbar.css">
+  
+  <link rel="stylesheet" type="text/css" href="vendor/nice-select/css/nice-select.css">
+  
+  <link rel="stylesheet" type="text/css" href="vendor/fancybox/css/jquery.fancybox.min.css">
+  
+  <link rel="stylesheet" type="text/css" href="css/virtual.css">
+  
+  <link rel="stylesheet" type="text/css" href="css/topbar.virtual.css">
+
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background-color: #1d1f21; /* Couleur de fond sombre pour contraster avec la suite binaire */
+    }
+
+    .trail {
+      position: absolute;
+      font-size: 20px; /* Taille des chiffres 0 et 1 */
+      color: blue; /* Couleur vert néon pour rappeler les vieux écrans */
+      pointer-events: none; /* Empêche d'interagir avec la traînée */
+      animation: fadeOut 1.5s ease-out forwards; /* Animation pour disparaître progressivement */
+      transform: translate(-50%, -50%); /* Décale chaque chiffre pour éviter qu'ils soient collés */
+    }
+
+    @keyframes fadeOut {
+      0% {
+        opacity: 1;
+        transform: scale(1);
+      }
+      100% {
+        opacity: 0;
+        transform: scale(0.5); /* Réduction de la taille pour un effet de dissipation */
+      }
+    }
+  </style>
+  
+</head>
+<body class="theme-blue">
+  
+
+  <!-- Back to top button -->
+  <div class="btn-back_to_top">
+    <span class="ti-arrow-up"></span>
+  </div>
+  
+  <div class="vg-page page-accueil" id="accueil" style="background-image: url(images/linux.jpeg)">
+    <!-- Navbar -->
+    <div class="navbar navbar-expand-lg navbar-dark sticky" data-offset="500">
+      <div class="container">
+        <a href="" class="navbar-brand">Bienvenue sur le portfolio de Jawed </a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#main-navbar" aria-expanded="true">
+          <span class="ti-menu"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main-navbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a href="#accueil" class="nav-link" data-animate="scrolling">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link" data-animate="scrolling">À propos</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projet" class="nav-link" data-animate="scrolling">Projets</a>
+            </li>
+            <li class="nav-item">
+              <a href="#veille" class="nav-link" data-animate="scrolling">Veille technologique</a>
+            </li>
+          </ul>    
+        </div>
+      </div>
+    </div> <!-- End Navbar -->
+
+    <!-- Caption header -->
+    <div class="caption-header text-center wow zoomInDown">
+      <h5 class="fw-normal">Bienvenue</h5>
+      <h1 class="fw-light mb-4"><b class="fg-theme">Jawed</b>Daoudi</h1>
+      <div class="badge">Étudiant en BTS SIO option SISR</div>
+    </div> 
+    <!-- End Caption header -->
+    <div class="floating-button"><span class="ti-mouse"></span></div>
+  </div>
+  
+  <div class="vg-page page-about" id="about">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-lg-4 py-3">
+          <div class="img-place wow fadeInUp">
+            <img src="images/moi.jpg" alt="Jawed Daoudi">
+          </div>
+        </div>
+        <div class="col-lg-6 offset-lg-1 wow fadeInRight">
+          <h1 class="fw-light">Jawed Daoudi</h1>
+          <h5 class="fg-theme mb-3">Étudiant</h5>
+          <p class="text-muted">J'ai commencé mon cursus d'études par un BTS SIO option SISR, et je cherche à en apprendre tous les jours en informatique notamment en réseau. Des choses du quotidien comme pouvoir envoyer un "paquet de données" à n'importe qui de l'autre côté du globe a réveillé ma curiosité sur les réseaux informatiques et leur fonctionnement, d'où mon choix de me diriger vers cette spécialité-là.</p>
+          <ul class="theme-list">
+            <li><b>Vit à:</b> Cesson, France</li>
+            <li><b>Âge:</b> 20</li>
+            <li><b>Sexe:</b> Homme</li>
+          </ul>
+          <a href="CV_DAOUDI_Jawed.pdf" class="btn btn-theme-outline" target="_blank">Télécharger le CV</a>
+        </div>
+      </div>
+    </div>
+    <div class="container py-5">
+      <h1 class="text-center fw-normal wow fadeIn">Mes Compétences</h1>
+      <div class="row py-3">
+        <div class="col-md-6">
+          <div class="px-lg-3">
+            <h4 class="wow fadeInUp">Gestion OS </h4>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">Linux (Debian, Ubuntu)</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">Windows Server 2019/2022 (Active Directory)</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">Windows</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="px-lg-3">
+            <h4 class="wow fadeInUp">Scripting</h4>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">Powershell</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">Bash</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">Python</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col-md-6 wow fadeInRight">
+          <h2 class="fw-normal">Formations</h2>
+          <ul class="timeline mt-4 pr-md-5">
+            <li>
+              <div class="title">2022~2024</div>
+              <div class="details">
+                <h5>BTS - Services Informatiques aux Organisations (SIO) - Solutions d'Infrastructure, Systèmes et Réseaux (SISR)</h5>
+                <small class="fg-theme">Lycée Léonard de Vinci - Melun</small>
+                <p>Option : <br> ⦁ Maths Approfondies</p>
+              </div>
+            </li>
+            <li>
+              <div class="title">2018 - 2022</div>
+              <div class="details">
+                <h5>Baccalauréat Général</h5>
+                <small class="fg-theme">Lycée Sonia Delaunay - Cesson</small>
+                <p>Spécialités : <br> ⦁ Economie SES <br> ⦁ Anglais LLCER</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6 wow fadeInRight" data-wow-delay="200ms">
+          <h2 class="fw-normal">Expériences Professionnelles</h2>
+          <ul class="timeline mt-4 pr-md-5">
+            <li>
+              <div class="title">A venir : Janvier - Fevrier 2025</div>
+              <div class="details">
+                <h5>Stage en Service Informatique</h5>
+                <small class="fg-theme">?</small>
+                <p>⦁ </p>
+                <p>⦁ </p>
+                <p>⦁ </p>
+                <p>⦁ </p>
+                <p>⦁ </p>
+              </div>
+            </li>
+            <li>
+              <div class="title">Juillet 2024</div>
+              <div class="details">
+                <h5>Animateur en centre de loisirs</h5>
+                <small class="fg-theme">Ecole Freinet, Vert-Saint-Denis</small>
+              </div>
+            </li>
+            <li>
+              <div class="title">Mai 2024 - Juin 2024</div>
+              <div class="details">
+                <h5>Stage en Support Informatique</h5>
+                <small class="fg-theme">Vinci Energies, Orléans</small>
+                <p>⦁ Création Scripts PowerShell :</p>
+                <p>  - Création de comptes utilisateurs Windows automatisée</p>
+                <p>  - Désactivation et suppression des comptes inactifs</p>
+                <p>⦁ Adressage IP du matériel réseau de la salle de réunion en DHCP</p>
+                <p>⦁ Maintenance des ordinateurs des collaborateurs</p>  
+              </div>
+            </li>
+            <li>
+              <div class="title">Septembre 2021 - Août 2023</div>
+              <div class="details">
+                <h5>Arbitre central de football</h5>
+                <small class="fg-theme">FFF, Seine et Marne</small>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="vg-page page-service">
+    <div class="container">
+      <div class="text-center wow fadeInUp">
+        <div class="badge badge-subhead">Services</div>
+      </div>
+      <h1 class="fw-normal text-center wow fadeInUp">Mes savoir-faire</h1>
+      <div class="row mt-5">
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="card card-service wow fadeInUp">
+            <div class="icon">
+              <span class="ti-paint-bucket"></span>
+            </div>
+            <div class="caption">
+              <h4 class="fg-theme">Virtualisation</h4>
+              <p>Mise en place d'environnements virtualisés via VMware ou autres hyperviseurs</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="card card-service wow fadeInUp">
+            <div class="icon">
+              <span class="ti-search"></span>
+            </div>
+            <div class="caption">
+              <h4 class="fg-theme">Installation et configuration d'OS</h4>
+              <p>Windows, Linux sur des serveurs et postes de travail</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="card card-service wow fadeInUp">
+            <div class="icon">
+              <span class="ti-vector"></span>
+            </div>
+            <div class="caption">
+              <h4 class="fg-theme">Sécurité informatique</h4>
+              <p>Gestion des droits d'accès, surveillance des logs </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="card card-service wow fadeInUp">
+            <div class="icon">
+              <span class="ti-desktop"></span>
+            </div>
+            <div class="caption">
+              <h4 class="fg-theme">Diponibilité</h4>
+              <p>Effectuer la maintenance du réseau afin d'assurer sa disponibilité</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- projet page -->
+  <div class="vg-page page-projet" id="projet">
+    <div class="container">
+      <div class="text-center wow fadeInUp">
+        <div class="badge badge-subhead">Projets</div>
+      </div>
+      <h1 class="text-center fw-normal wow fadeInUp">Voir mes projets</h1>
+      <div class="filterable-button py-3 wow fadeInUp" data-toggle="selected">
+        <button class="btn btn-theme-outline selected" data-filter="*">Tout</button>
+        <button class="btn btn-theme-outline" data-filter=".scolaire">Projets Scolaires</button>
+        <button class="btn btn-theme-outline" data-filter=".perso">Projets Personnels</button>
+        <button class="btn btn-theme-outline" data-filter=".pro">Projets Professionnels</button>
+      </div>
+
+      <div class="gridder my-3">
+        <div class="grid-item pro wow zoomIn">
+          <div class="img-place" data-src="img/work/work-3.webp">
+            <a href="">
+            <img src="" alt="">
+            <div class="img-caption">
+              <a href="" class="fg-theme"></a>
+              <p>Projet Professionnel</p>
+            </div>
+            </a>
+          </div>
+        </div>
+        <div class="grid-item scolaire wow zoomIn">
+          <div class="img-place" data-src="img/work/work-4.webp">
+            <a href="">
+            <img src="" alt="Logo OpenVPN">
+            <div class="img-caption">
+              <a href="" class="fg-theme"></a>
+              <p>Projet Scolaire</p>
+            </div>
+            </a>
+          </div>
+        </div>
+        <div class="grid-item perso proj_perso wow zoomIn">
+          <div class="img-place" data-src="">
+            <a href="">
+            <img src="" alt="Capture d'écran - Plex">
+            <div class="img-caption">
+              <a href="" class="fg-theme"></a>
+              <p>Projet Personnel</p>
+            </div>
+            </a>
+          </div>
+        </div>
+        <div class="grid-item scolaire wow zoomIn">
+          <div class="img-place" data-src="img/work/cloudflare-tunnel.png">
+            <a href="">
+            <img src="" alt="Logo Cloudflare">
+            <div class="img-caption">
+              <a href="" class="fg-theme">Mise en place d'un WIFI d'entreprise</a>
+              <p>Projet Scolaire</p>
+            </div>
+            </a>
+          </div>
+        </div>
+        <div class="grid-item pro wow zoomIn">
+          <div class="img-place" data-src="img/work/cloudflare-tunnel.png">
+            <a href="projets/script_comptes_utilisateurs.html">
+            <img src="img/work/script_comptes_utilisateurs/0.png" alt="Logo">
+            <div class="img-caption">
+              <a href="projets/script_comptes_utilisateurs.html" class="fg-theme">Automatisation Création de Compte AD et Jamespot</a>
+              <p>Projet Professionnel</p>
+            </div>
+            </a>
+          </div>
+        </div>
+        <div class="grid-item pro wow zoomIn">
+          <div class="img-place" data-src="img/work/cloudflare-tunnel.png">
+            <a href="projets/clonezilla_pc.html">
+            <img src="img/work/clonezilla_pc/0.png" alt="Logo Clonezilla">
+            <div class="img-caption">
+              <a href="projets/clonezilla_pc.html" class="fg-theme">Préparation de PC fixes</a>
+              <p>Projet Professionnel</p>
+            </div>
+          </a>
+          </div>
+        </div>
+      </div> <!-- End gridder -->
+      <div class="text-center wow fadeInUp">
+        <!--Juste en dessous, mettre le compte rendu de stage en pdf quand je l'aurais fini-->
+        <a href="comptesrendu/CR1Stage.pdf" target="blank" class="btn btn-theme">Mon Stage de 1ère année (CR non complet)</a>
+        <a href="Administratif/Attestation de stage.pdf" target="blank" class="btn btn-theme">Attestation de stage 1ère année</a>
+      </div>
+      <div class="text-center wow fadeInUp">
+        <!-- Pareil mais stage deuxième année compte rendu pdf-->
+        <a href="" class="btn btn-theme">Stage de 2ème année</a>
+      </div>
+    </div>
+  </div> <!-- End projet page -->
+  <!-- veille -->
+  <div class="vg-page page-veille" id="veille">
+    <div class="container">
+      <div class="text-center">
+        <div class="badge badge-subhead wow fadeInUp">Veille Technologique "L'informatique quantique et l'entreprise"</div>
+      </div>
+      <div class="feedgrabbr_widget" id="fgid_2c125a9f1a3b2ada60a725f84"></div>
+      <script>if (typeof (fg_widgets) === "undefined") fg_widgets = new Array(); fg_widgets.push("fgid_2c125a9f1a3b2ada60a725f84");</script>
+      <script async src="https://www.feedgrabbr.com/widget/fgwidget.js"></script>
+      <div class="row post-grid">
+        <div class="col-12 text-center py-3 wow fadeInUp">
+          <!--Mettre la veille en dessous.-->
+          <iframe src="https://www.pearltrees.com/jawedhcp/veille-technologique/id82997273?embed=2&d=202409082250" width="853" height="604" style="border:0px;" allowtransparency="true"></iframe>
+<span style="display:block; padding-top:2px; color:#818181; font-size:13px;">
+  <a href="https://www.pearltrees.com/jawedhcp/veille-technologique/id82997273" style=" color:#818181; font-size:13px;" target="_blank">Veille technologique</a>, par 
+  <a href="https://www.pearltrees.com/jawedhcp" style=" color:#818181; font-size:13px;" target="_blank">Jawed Daoudi</a>
+</span>
+
+<!-- Ajout du bouton ici -->
+<a href="https://www.pearltrees.com/jawedhcp/veille-technologique/id82997273" class="btn btn-theme" target="_blank">Plus de détails sur la veille</a>
+
+        </div>
+      </div>
+    </div>
+  </div> <!-- End veille -->
+
+  <!-- Footer -->
+  <div class="vg-footer">
+    <h1 class="text-center">Portfolio</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 py-3">
+          <div class="footer-info">
+            <p>Divers</p>
+            <hr class="divider">
+            <ul class="list-unstyled">
+              <!--Mettre lien github en dessous lorsqu'il sera créé-->
+              <li><a href="https://github.com/jawedhcp/portfoliojawed"target="_blank">GitHub <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" style="width:20px; height:20px;"></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-2 py-3">
+          <div class="float-lg-right">
+            <p>Suivez-moi</p>
+            <hr class="divider">
+            <ul class="list-unstyled">
+              <!--Mettre mon linkedin en dessous lorsqu'il sera créé-->
+              <li><a href="https://www.linkedin.com/in/jawed-daoudi-5b4131235/"target="_blank">LinkedIn <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" style="width:20px; height:20px;"></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-6 py-3">
+          <div class="float-lg-right">
+            <p>Contactez moi</p>
+            <hr class="divider">
+            <ul class="list-unstyled">
+              <li>jawed.daoudipro@gmail.com</li>
+              <li>06.95.64.07.91</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-3">
+        <div class="col-12">
+          <p class="text-center mb-0 mt-4">Copyright &copy;2020. Tous droits réservés | Ce template a été fait avec <span class="ti-heart fg-theme-red"></span> par <a href="https://www.macodeid.com/">MACode ID</a></p>
+        </div>
+      </div>
+    </div>
+  </div> <!-- End footer -->
+
+
+  <script src="js/jquery-3.5.1.min.js"></script>
+    
+  <script src="js/bootstrap.bundle.min.js"></script>
+    
+  <script src="vendor/owl-carousel/owl.carousel.min.js"></script>
+    
+  <script src="vendor/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+    
+  <script src="vendor/isotope/isotope.pkgd.min.js"></script>
+    
+  <script src="vendor/nice-select/js/jquery.nice-select.min.js"></script>
+    
+  <script src="vendor/fancybox/js/jquery.fancybox.min.js"></script>
+
+  <script src="vendor/wow/wow.min.js"></script>
+
+  <script src="vendor/animateNumber/jquery.animateNumber.min.js"></script>
+
+  <script src="vendor/waypoints/jquery.waypoints.min.js"></script>
+    
+  <script src="js/topbar-virtual.js"></script>
+
+  <!-- JavaScript intégré dans le body -->
+  <script>
+    let lastX = 0;
+    let lastY = 0;
+    const distanceThreshold = 50; // Distance minimale entre deux chiffres
+  
+    document.addEventListener('mousemove', function(e) {
+      const currentX = e.pageX;
+      const currentY = e.pageY;
+  
+      // Vérifier si la souris s'est déplacée d'au moins 50 pixels avant de générer un nouveau chiffre
+      if (Math.abs(currentX - lastX) > distanceThreshold || Math.abs(currentY - lastY) > distanceThreshold) {
+        // Créer un élément div pour représenter la traînée
+        let trail = document.createElement('div');
+        trail.classList.add('trail');
+        
+        // Générer aléatoirement un 0 ou un 1
+        let binary = Math.random() < 0.5 ? '0' : '1';
+        trail.textContent = binary; // Ajouter le chiffre binaire au texte
+  
+        // Positionner la traînée à l'endroit de la souris
+        trail.style.left = currentX + 'px';
+        trail.style.top = currentY + 'px';
+  
+        // Ajouter la traînée au body
+        document.body.appendChild(trail);
+        
+        // Supprimer la traînée après l'animation (2 secondes ici)
+        setTimeout(function() {
+          trail.remove();
+        }, 2000);
+  
+        // Mettre à jour les dernières coordonnées
+        lastX = currentX;
+        lastY = currentY;
+      }
+    });
+  </script>
+  
+</body>
+</html>
